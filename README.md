@@ -28,3 +28,4 @@ hacer "pip freeze > requeriments.txt" para que se graben en el fichero
 ENDPOINT es el punto final, o la ruta de la web
 
 #Ejecutar el progama
+python app.py
