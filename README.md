@@ -1,10 +1,10 @@
-# flask-api-bible-books
+# flask-bible-api-supabase
 Leer una api de libros de la Biblia
 
 ##Crear el entorno virtual
 mkdir myproject
 cd myproject
-py -3 -m venv .venv
+py -3 -m venv venv
 
 ##Activar en entorno virtual
 .venv\Scripts\activate
