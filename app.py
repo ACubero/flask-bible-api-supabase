@@ -14,7 +14,7 @@ app = Flask(__name__)
 def mostrar_libros():
     supabase = create_client(url,key)
     response = supabase.table("books").select("*").execute()
-    print(response)
+    #print(response)
     if len(response.data) > 0:
         return render_template('libros.html', libros=response.data)
     else: 
